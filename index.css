@@ -23,6 +23,7 @@ h1 {
   font-family: "Homemade Apple", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: large;
 
   color: white;
 }
@@ -38,5 +39,6 @@ p {
 /* elements */
 
 .laceborder{
-    width:
+    width:20%;
+    min-height: 100%;
 }
