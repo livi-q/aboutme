@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+
+    background-color: var(--darknavy);
+    font-size: 20px;
+    width: 100%;
+} 
+:root{
+    --darknavy: #1A243B;
+    --mediumblue: #2E3E65;
+    --cream: #D6B896;
+    --mascarpone:#F6DFB5;
+    --cherry: #632125;
+
+}
