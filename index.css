@@ -1,4 +1,4 @@
-body, html {
+body{
     margin: 0;
     padding: 0;
 
@@ -24,7 +24,7 @@ h1 {
   font-family: "Homemade Apple", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: large;
+  font-size: 7.5vh;
 
   color: white;
 }
@@ -43,13 +43,16 @@ p {
     width:20%;
     min-height: 100%;
     z-index: 2; 
+    position: static;
 }
 
 .maincontent{
   width: 80%;
   height: 80%;
-  top: 20%;
-  left: 20%;
+  top: 12.5%;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
 
-  background: #000;
+  
 }

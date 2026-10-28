@@ -14,8 +14,8 @@ body {
 
     position: fixed;
     top: 0px;
-    left: 30%;
-    gap: 10%;
+    left: 30vw;
+    gap: 7.5%;
     top: 3%;
     
     width:100%;
@@ -24,6 +24,7 @@ body {
 }
 
 .navbtn{
-    height: 100%;
+    position: relative;
+    height: 90%;
     width: 100%;
 }
