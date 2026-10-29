@@ -1,3 +1,10 @@
 body{
     background-image: url("img/blueGingham.png");
 }
+
+.maincontainer {
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    
+}
