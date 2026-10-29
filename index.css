@@ -11,44 +11,6 @@ body{
     width: 100%;
     z-index: 1;
 } 
-:root{
-    --darknavy: #1A243B;
-    --mediumblue: #2E3E65;
-    --cream: #D6B896;
-    --mascarpone:#F6DFB5;
-    --cherry: #632125;
-
-}
-
-h1 {
-  font-family: "Homemade Apple", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 7.5vh;
-  margin: 1vh 0px;
-
-  color: white;
-}
-
-h2 {
-  font-family: "Indie Flower", cursive;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 3.5vh;
-  margin: 1vh 0px;
-
-  color: white;
-}
-
-p {
-  font-family: "Inria Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3.5vh;
-  margin: 1vh 0px;
-
-  color: white;
-}
 
 /* elements */
 
