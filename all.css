@@ -53,12 +53,15 @@ p {
 
     position: fixed;
     top: 0px;
-    left: 30vw;
+    left: 0vw;
+    padding-left: 30vw;
     gap: 7.5%;
     top: 3%;
     
     width:100%;
     height: 10%;
+
+    
 
 }
 
