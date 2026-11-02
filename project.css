@@ -15,3 +15,46 @@ body{
     left: 70vw;
     bottom: 30vh;
 }
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+
+    gap: 15vw;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+    height: 80vh;
+    padding:  5vh 0px 25vh 0px;
+}
+.card{
+    background: var(--mediumblue);
+
+    width: 25vw;
+    height: fit-content;
+    min-height: 25vw;
+    margin-bottom: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
+
+.project{
+    width: 20vw;
+    margin-top: 5vh;
+    margin-bottom:2vh;
+}
+.disc{
+    margin-bottom: 2vh;
+}
