@@ -3,7 +3,8 @@ body{
     padding: 0;
 
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     position: absolute;
 
     background-color: var(--darknavy);
@@ -15,26 +16,26 @@ body{
 /* elements */
 
 .laceborder{
-    width:20%;
-    min-height: 100%;
+    width:20vw;
+    height: 100vh;
+    object-fit: cover;
     z-index: 2; 
-    position: static;
+    position: absolute;
 }
 
 .pfp{
-  width:22.5%;
+  width:22.5vw;
   z-index: 2; 
-  position: fixed;
-  top: 47.5vh;
-  left: 25vw;
+  position: absolute;
+  top: 25vh;
+  left: 0vw;
 }
 
 .maincontent{
   width: 80%;
   height: 80%;
-  top: 10%;
-  left: 25%;
+  top: 15vh;
+  left: 25vw;
   position: absolute;
   z-index: 1;
-  
 }

@@ -1,5 +1,6 @@
 body{
     background-image: url("img/blueGingham.png");
+    overflow-y: hidden;
 }
 
 .maincontainer {
@@ -52,6 +53,7 @@ body{
 
 .project{
     width: 20vw;
+    height: 20vw;
     margin-top: 5vh;
     margin-bottom:2vh;
 }

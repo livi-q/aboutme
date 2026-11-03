@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    overflow: hidden;
+    overflow-x: hidden;
     font-size: 20px;
 } 
 
@@ -36,7 +35,7 @@ h2 {
   color: white;
 }
 
-p {
+p, li {
   font-family: "Inria Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -66,4 +65,19 @@ p {
     position: relative;
     height: 90%;
     width: 100%;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 20vh;
+  padding: 5vh 5vw;
+
+  position: absolute;
+  top: 100vh;
+
+  background-color: var(--cherry);
+
+  z-index: 10;
 }
